@@ -107,3 +107,28 @@ sleep 0.13
 play :A2
 sleep 0.13
 play :Gb1
+
+sleep 0.55
+play :Eb2
+play :A2
+sleep 0.40 # check timing
+play :Eb2
+play :A2
+sleep 0.25 #check timing
+play :Db2
+sleep 0.13
+play :E2
+sleep 0.13
+play :Db2
+sleep 0.13
+play :E2
+sleep 0.13
+play :Gb2, release: 1
+sleep 0.5
+play :E2
+sleep 0.25
+play :Db2
+sleep 0.13
+play :E2
+sleep 0.13
+play :Gb2, release: 0.25
